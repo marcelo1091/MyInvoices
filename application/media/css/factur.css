@@ -1,0 +1,34 @@
+.btn-small{
+    width: 150px;
+    margin-bottom: 10px!important;
+}
+
+.warforadd .rekaningText {
+    margin: 0;
+    width: auto;
+    padding: 0;
+    line-height: 42px;
+}
+
+.form-control-small {
+    width: 100px!important;
+    text-align: center;
+}
+
+#myForm {
+    padding-top: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .warforadd tr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-small{
+        width: 90%!important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px; 
+        margin-bottom: 10px!important;
+    }
+}
